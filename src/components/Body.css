@@ -311,7 +311,7 @@
         font-size: 15px;
     }
     .hide {
-        /* display: none; */
+        display: none;
     }
     .header__list {
         margin-right: 5rem;
@@ -355,12 +355,35 @@
     }
 }
 
-@media only screen and (max-width : 456px)  {
+@media only screen and (max-width : 460px)  {
     .body__1 {
         margin-left: 350px;
         overflow: hidden;
     }
     .body_img {
         height: 15rem;
+    }
+    .body__div1 {
+        margin-left: 2rem;
+        width: 20rem;
+        font-size: 12px;
+        padding: 1rem 1rem;
+    }
+    .body__div {
+        padding: 1rem 1rem;
+        margin-left: 2rem;
+        width: 20rem;
+        font-size: 12px;
+    }
+    .body__header {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    .header__list {
+        margin-right: 2rem;
+        /* width: 1rem; */
+    }
+    .header__logo {
+        /* width: 2rem; */
     }
 }
