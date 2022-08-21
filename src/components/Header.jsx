@@ -37,7 +37,7 @@ function Header() {
                 <li>Home</li>
               </Link>
                 <li>Services</li>
-                <li>About us</li>
+                <li className="hide">About us</li>
             </ul>
         </div>
         <div>

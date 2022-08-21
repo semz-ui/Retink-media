@@ -27,7 +27,7 @@ function Body() {
         <div className='re3'></div>
         <div className='body__1'>
             <div  className='body__user'>
-                {user ? (<p>Welcome {name}</p>) : <>Welcome</>}
+                {user ? (<p>Welcome {name}</p>) : <></>}
             </div>
             <div className='body__header'>
                 <h1>What are you looking for?</h1>
@@ -48,6 +48,10 @@ function Body() {
             </div>
         </div>
         <div style={{ display: 'flex' }} className='o'>
+            <div className='re4'></div>
+        <div className='re5'></div>
+        <div className='re6'></div>
+        <div className='re7'></div>
             <div className='img__anime'>
             <img src={image} className='body_img' />
             </div>
