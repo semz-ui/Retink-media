@@ -28,3 +28,10 @@
 .reset div {
   margin-top: 7px;
 }
+
+.forgot_password1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}

@@ -78,7 +78,9 @@ function Register() {
           </div>
         </form>
         <div className='forgot_password'>
-          <p>forgot password?</p>
+          <Link to="/reset" className='register_text'>
+            <p>forgot password?</p>
+          </Link>
           <Link className='register_text' to='/login'>
           <p>Login</p>
           </Link>

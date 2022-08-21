@@ -44,7 +44,7 @@
     right: -58%;
     border: none;
     color: white;
-    /* transition: 0.2s all; */
+    transition: 0.2s all;
 }
 
 .register_form_input:focus {
@@ -57,13 +57,15 @@
     border: none;
     cursor: pointer;
     width: 220%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 5px;
     padding: 1rem 1rem;
     margin-bottom: 1.5rem;
     color: white;
+}
+
+.register_form_btn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9);
 }
 
 .forgot_password {

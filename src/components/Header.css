@@ -4,9 +4,7 @@
     justify-content: space-between;
     padding: 18px 20px;
     background-color: white;
-    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 }
 
 .header__logo {
@@ -20,10 +18,7 @@
     display: flex;
     list-style: none;
     justify-content: space-between;
-}
-
-.header__ul > li {
-    margin-left: 40px;
+    width: 100%;
 }
 
 .header__link {
@@ -39,7 +34,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 0 10px black;
+    box-shadow: 5px 5px 10px #A85Cf9;
 }
 
 .header__btn:active {

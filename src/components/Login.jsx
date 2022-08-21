@@ -27,6 +27,7 @@ function Login() {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    logInWithEmailAndPassword(email, password)
     }
 
     if (loading) {
@@ -42,10 +43,10 @@ function Login() {
       <div className='register_form'>
         <form onSubmit={onSubmit}>
           <div className='register_form_div'>
-            <input type='text' placeholder='Email'  className='register_form_input' id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type='text' placeholder='Email'  className='register_form_input' id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} required />
           </div>
           <div className='register_form_div'>
-            <input type={passwordHide ? "text" : "password"} placeholder="Password"  className='register_form_input' id='password' name='password' value={password} onChange={(e) => setPassword(e.target.value)} />
+            <input type={passwordHide ? "text" : "password"} placeholder="Password"  className='register_form_input' id='password' name='password' value={password} onChange={(e) => setPassword(e.target.value)} required />
           </div>
           <div onClick={showText} className="btn_pass">
               {
@@ -53,11 +54,13 @@ function Login() {
             }
             </div>
           <div className='register_form_div'>
-            <button className='register_form_btn' onClick={() => logInWithEmailAndPassword(email, password)}>Login</button>
+            <button className='register_form_btn'>Login</button>
           </div>
         </form>
          <div className='forgot_password'>
-          <p>forgot password?</p>
+          <Link to="/reset" className='register_text'>
+            <p>forgot password?</p>
+          </Link>
           <Link className='register_text' to='/register'>
           <p>Register</p>
           </Link>
