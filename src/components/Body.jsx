@@ -20,7 +20,7 @@ function Body() {
     fetchUserName();
   }, [user]);
   return (
-    <div className='body'>
+    <div className='body' data-aos="fade-up">
         <div className='re'></div>
         <div className='re1'></div>
         <div className='re2'></div>
@@ -47,7 +47,7 @@ function Body() {
                 </div>
             </div>
         </div>
-        <div style={{ display: 'flex' }}>
+        <div style={{ display: 'flex' }} className='o'>
             <div className='img__anime'>
             <img src={image} className='body_img' />
             </div>

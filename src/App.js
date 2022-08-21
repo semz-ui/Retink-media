@@ -6,11 +6,11 @@ import Login from "./components/Login";
 import Reset from "./components/Reset";
 import User from "./components/User";
 import Spinner from "./components/Spinner";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  // AOS.init();
+  AOS.init();
   return (
     <Router>
       <div className="App">

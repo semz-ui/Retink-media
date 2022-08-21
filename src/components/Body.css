@@ -231,3 +231,22 @@
     }
 
 }
+
+@media only screen and (max-width : 600px)  {
+    .body__1 {
+        margin-left: 300px;
+    }
+    .body_img {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width : 456px)  {
+    .body__1 {
+        margin-left: 350px;
+        overflow: hidden;
+    }
+    .body_img {
+        height: 15rem;
+    }
+}
