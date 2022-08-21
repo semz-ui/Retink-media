@@ -317,11 +317,18 @@
         margin-right: 5rem;
     }
 
+    .body__header {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top: 30rem;
+    }
 }
 
 @media only screen and (max-width : 630px)  {
     .body__header {
         font-size: 1rem;
+        margin-left: 2rem;
+        margin-top: 30rem;
     }
     .body__text1 {
         font-size: 10px;
@@ -377,7 +384,7 @@
     }
     .body__header {
         font-size: 1rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     .header__list {
         margin-right: 2rem;
@@ -385,5 +392,15 @@
     }
     .header__logo {
         /* width: 2rem; */
+    }
+}
+
+@media only screen and (max-width : 420px)  {
+    .body__header {
+        font-size: 1rem;
+        margin-left: 1.5rem;
+    }
+    .header__list {
+        margin-right: 4rem;
     }
 }
