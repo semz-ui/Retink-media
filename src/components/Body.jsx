@@ -20,7 +20,7 @@ function Body() {
     fetchUserName();
   }, [user]);
   return (
-    <div className='body' data-aos="fade-up">
+    <div className='body' data-aos="fade-up" data-aos-duration="3000">
         <div className='re'></div>
         <div className='re1'></div>
         <div className='re2'></div>
