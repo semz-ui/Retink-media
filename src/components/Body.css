@@ -1,6 +1,6 @@
 .body {
-    height: 92vh;
-    width: 99.14vw;
+    /* height: 92vh; */
+    /* width: 99.14vw; */
     display: flex;
     overflow: hidden;
 }
@@ -265,7 +265,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 100%;
+        /* height: 100%; */
     }
     .body__header {
         margin-left: 1rem;
@@ -290,7 +290,8 @@
 
 @media only screen and (max-width : 700px)  {
     .body {
-        height: 100vh;
+        height: 100%;
+        margin-top: -20rem;
     }
     .body__text1 {
         font-size: 14px;
@@ -325,6 +326,10 @@
 }
 
 @media only screen and (max-width : 630px)  {
+    .body {
+        height: 100%;
+        margin-top: -9rem;
+    }
     .body__header {
         font-size: 1rem;
         margin-left: 2rem;
@@ -357,12 +362,25 @@
     .body__1 {
         margin-left: 300px;
     }
+    .body__header {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
     .body_img {
         height: 20rem;
     }
 }
 
 @media only screen and (max-width : 460px)  {
+    .body {
+        height: 120vh;
+    }
+    .body__header {
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+    }
     .body__1 {
         margin-left: 350px;
         overflow: hidden;
